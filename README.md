@@ -16,9 +16,9 @@
 
 ## Links
 
-* Github Code: `<insert Github repository link here>`
-* Github Proposal: `<insert Proposal Pull Request here>`
-* Trello/Github Project Kanban: `<insert trello board here>`
+* Github Code: `https://github.com/froggomad/iOS-Build-Sprint-1`
+* Github Proposal: `https://github.com/froggomad/ios-build-sprint-project-proposal`
+* Trello/Github Project Kanban: `https://trello.com/b/zkBeOwrE/lunchly`
 * Test Flight Signup (Recommended): `<insert beta signup link here>`
 * YouTube demo video (Recommended): `<insert video url here>`
 
