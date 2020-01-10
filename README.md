@@ -23,18 +23,18 @@
 * YouTube demo video (Recommended): `<insert video url here>`
 
 ## Hero Image
-
-`<Post one screenshot in an iPhone Simulator frame or an iPhone 11 Pro render using placeit.com>`
+### placeit.com is down
+`https://ibb.co/gPKQhc4`
 
 ## Questions (Answer indented below)
 
 1. What was your favorite feature to implement? Why?
 
-    `<Your answer here>`
+    `I liked implementing the meetup feature a lot. It gave me a chance to practice a lot of different fundamentals, as well as some new challenges.`
 
 2. What was your #1 obstacle or bug that you fixed? How did you fix it?
 
-    `<Your answer here>`
+    `I had a mysterious bug crop up Thursday where an Alert that was crucial to an MVP feature was dismissing itself before it could be used. I used completion blocks to work around it, but still don't understand why it cropped up.`
   
 3. Share a chunk of code (or file) you're proud of and explain why.
 
