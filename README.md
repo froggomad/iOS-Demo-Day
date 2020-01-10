@@ -38,19 +38,39 @@
   
 3. Share a chunk of code (or file) you're proud of and explain why.
 
-    `<Your answer here>`
+    `This little beast right here, this tiny chunk of code, along with a small amount of logic, saved me from having to write several functions that would sort a dictionary of type [Restaurant:Int] used to tally votes (another MVP feature). I spent hours trying to figure out a way to make that all work, and this was the keystone. I just used the struct to store all of the dictionary values, put the values in an array, and sorted the array.`
+
+```Swift
+struct Vote: Codable, Equatable {
+    var restaurant: Restaurant
+    var votes: Int
+}
+```
   
 4. What is your elevator pitch? (30 second description your Grandma or a 5-year old would understand)
 
-    `<Your answer here>`
+    `Have you ever gotten in an argument with someone over where to go to eat? In today's fickle dating environment, relationships are ended over meager disputes over food. 
+
+"Italian or Pizza babe?"
+"Idk... you decide"
+"Your lack of commitment is ruining our relationship, I'm done!"
+Ok, so maybe this doesn't happen.
+
+How about that group of coworkers you go out to lunch with every Friday? Ever have a hard time deciding where to go? I bet you have...
+
+Lunchly can help!
+
+With Lunchly, you can pick several restaurants, and one or more friends to go with you. Lunchly will trigger a vote that ends 30 minutes before your meetup time. If the vote is tied, Lunchly chooses for you! Simple!
+
+`
   
 5. What is your #1 feature?
 
-    `<Your answer here>`
+    `It's hard to call the meetup feature a #1 feature because it's really several features rolled into one... but that's precisely what makes it the #1 feature. Sorry friendly alerts, and timely notifications. Sorry groups and restaurants - you're all key components, but the meetup feature steals the show!`
   
 6. What are you future goals?
 
-    `<Your answer here>`
+    `I'm considering making this a full-featured app on the app store. It needs to have Firebase or some sort of backend integrated, and some minor tweaks and bug fixes, but it's a solid app.`
 
 ## Required Slides (Add your Keynote to your PR)
 
